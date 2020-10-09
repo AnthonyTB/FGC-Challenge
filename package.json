@@ -24,6 +24,7 @@
   "scripts": {
     "lint": "tslint --project",
     "dev": "react-scripts start",
+    "build": "react-scripts build",
     "typecheck": "tsc --noEmit",
     "test": "jest",
     "test:update": "jest -- -u",
