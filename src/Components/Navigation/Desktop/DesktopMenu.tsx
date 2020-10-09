@@ -5,7 +5,7 @@ import NavigationRoutes from '../NavigationRoutes'
 
 const DesktopMenu: React.FC<any> = (props) => {
   return <div className="DesktopMenu">
-    <NavigationRoutes {...props} />
+    <NavigationRoutes isMobile={false} {...props} />
   </div>;
 };
 

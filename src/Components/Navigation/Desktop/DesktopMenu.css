@@ -13,9 +13,8 @@
     display: inline;
     margin-right: 25px;
     font-size: 30px;
-    padding: 10px;
-    background: #5c5c5c;
-    border-radius: 10px;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #5c5c5c;
   }
 
   .DesktopMenu ul li:nth-last-child(1) {

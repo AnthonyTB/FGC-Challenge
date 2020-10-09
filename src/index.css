@@ -17,6 +17,10 @@ main {
   padding-top: 20px;
 }
 
+.error {
+  color: red;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
