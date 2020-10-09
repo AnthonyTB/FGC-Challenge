@@ -1,0 +1,38 @@
+.Dog ul {
+  padding: 0;
+}
+
+.Dog ul li {
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Dog ul li .DoggoImg {
+  width: 50%;
+  height: auto;
+}
+
+.Dog ul li .DoggoBreed {
+  width: 50%;
+  font-weight: 500;
+}
+
+.Dog ul li .DoggoBreed span {
+  font-weight: 900;
+}
+
+@media screen and (min-device-width: 1000px) {
+  .Dog ul li .DoggoBreed {
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-device-width: 1400px) {
+  .Dog ul li .DoggoBreed {
+    font-size: 45px;
+  }
+}

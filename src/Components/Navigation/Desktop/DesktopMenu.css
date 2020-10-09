@@ -1,0 +1,33 @@
+@media only screen and (min-width: 1201px) {
+  .DesktopMenu {
+    max-width: 1200px;
+    margin: 50px auto;
+  }
+
+  .DesktopMenu ul {
+    padding: 0;
+  }
+
+  .DesktopMenu ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 25px;
+    font-size: 30px;
+    padding: 10px;
+    background: #5c5c5c;
+    border-radius: 10px;
+  }
+
+  .DesktopMenu ul li:nth-last-child(1) {
+    margin-right: 0;
+  }
+
+  .DesktopMenu ul li a {
+    color: #71f79f;
+    text-decoration: none;
+  }
+
+  .MobileMenu {
+    display: none;
+  }
+}

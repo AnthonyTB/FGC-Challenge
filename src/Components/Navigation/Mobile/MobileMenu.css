@@ -1,0 +1,65 @@
+@media only screen and (max-width: 1200px) {
+  .MobileMenu {
+    background: #1a1a1a;
+
+    overflow-y: hidden;
+  }
+
+  .MobileMenu .fa-caret-down {
+    margin-top: 10px;
+  }
+
+  .MobileMenu .fa-caret-up {
+    margin-bottom: 10px;
+  }
+
+  .MobileMenu ul {
+    padding: 0;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .MobileMenu ul li {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+    text-align: left;
+    padding: 10px;
+    background: #5c5c5c;
+    margin-bottom: 5px;
+    border-radius: 10px;
+  }
+
+  .MobileMenu ul li a {
+    text-decoration: none;
+    color: #71f79f;
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+
+  .MobileMenu i {
+    font-size: 25px;
+    color: #fff;
+  }
+
+  .MobileMenu.closed {
+    height: 50px;
+  }
+
+  .DesktopMenu {
+    display: none;
+  }
+
+  @media only screen and (min-width: 900px) {
+    .MobileMenu i {
+      font-size: 40px;
+    }
+
+    .MobileMenu ul li {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+  }
+}
