@@ -26,7 +26,7 @@
   "scripts": {
     "lint": "tslint --project",
     "dev": "react-scripts start",
-    "build": "gh-pages -d build",
+    "build": "CI= react-scripts build",
     "typecheck": "tsc --noEmit",
     "test": "jest",
     "test:update": "jest -- -u",
