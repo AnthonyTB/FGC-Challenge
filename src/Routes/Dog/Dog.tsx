@@ -46,7 +46,7 @@ const Dog: React.FC<any> = (props) => {
             {dogsList.message.map((dog: any, Idx: number) => {
               return (
                 <li key={`Doggo ${Idx}`}>
-                  <img className="DoggoImg" src={`${dog}`} />
+                  <img className="DoggoImg" src={`${dog}`} alt={`${props.match.params.DogBreed.split('-').join(' ')} ${Idx}`}/>
                   <h2 className="DoggoBreed">I'm a <span>{props.match.params.DogBreed.split('-').join(' ')}</span></h2>
                 </li>
               )
