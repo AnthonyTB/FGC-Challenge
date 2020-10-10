@@ -19,6 +19,7 @@
 .Dog ul li .DoggoBreed {
   width: 50%;
   font-weight: 500;
+  text-align: center;
 }
 
 .Dog ul li .DoggoBreed span {

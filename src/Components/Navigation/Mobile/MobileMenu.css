@@ -1,8 +1,8 @@
 @media only screen and (max-width: 1200px) {
   .MobileMenu {
     background: #1a1a1a;
-
     overflow-y: hidden;
+    text-align: center;
   }
 
   .MobileMenu .fa-caret-down {
