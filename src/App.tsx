@@ -1,5 +1,4 @@
 import React, { FunctionComponent } from "react";
-import "./App.css";
 import { RouteComponentProps, Switch, Route } from "react-router-dom";
 import { Home, Dog, ErrorBoundary } from './Routes/';
 import { Navigation } from './Components'
