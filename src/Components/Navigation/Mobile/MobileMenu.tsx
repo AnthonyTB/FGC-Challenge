@@ -8,7 +8,7 @@ const MobileMenu: React.FC<any> = (props) => {
 
   return <div className={`MobileMenu ${isOpen ? 'open animate__animated animate__slideInDown' : 'closed'}`}>
     {isOpen ? <NavigationRoutes isMobile={true} {...props} setIsOpen={() => setIsOpen(!isOpen)} /> : null}
-    <button type='button' onClick={() => setIsOpen(!isOpen)}>
+    <button type='button' aria-label="menu-toggle" onClick={() => setIsOpen(!isOpen)}>
       <i className={`${isOpen ? "fas fa-caret-up" : "fas fa-caret-down"}`}></i>
     </button>
   </div>;
